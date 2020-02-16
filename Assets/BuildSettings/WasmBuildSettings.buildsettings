@@ -1,0 +1,30 @@
+{
+    "Dependencies": [],
+    "Components": [{
+        "$type": "Unity.Build.Common.GeneralSettings, Unity.Build.Common",
+        "ProductName": "Product Name",
+        "CompanyName": "Company Name"
+    }, {
+        "$type": "Unity.Build.Common.SceneList, Unity.Build.Common",
+        "BuildCurrentScene": false,
+        "Scenes": [
+            "GlobalObjectId_V1-1-d1c3109bdb54ad54c8a2b2838528e640-102900000-0"
+        ]
+    }, {
+        "$type": "Unity.Entities.Runtime.Build.DotsRuntimeBuildProfile, Unity.Entities.Runtime.Build",
+        "ShouldWriteDataFiles": true,
+        "EnableManagedDebugging": false,
+        "EnableMultiThreading": false,
+        "EnableBurst": true,
+        "RootAssembly": "GlobalObjectId_V1-1-2584fcea3f42c4eaeaa69fdcf3cd2c7d-5897886265953266890-0",
+        "Target": "wasm",
+        "Configuration": 2,
+        "Pipeline": "GlobalObjectId_V1-1-56241f83dacec1141b7d967eb30bf934-93214019566545601-0",
+        "BeeTargetOverride": null
+    }, {
+        "$type": "Unity.Platforms.Web.EmscriptenSettings, Unity.Platforms.Web",
+        "EmccArgs": [
+            "TOTAL_MEMORY=256MB"
+        ]
+    }]
+}
