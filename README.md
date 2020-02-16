@@ -2,7 +2,7 @@
 
 ## TODO
 - Add support for running scene inside the editor
- Check `Running and Debugging` at https://docs.google.com/document/d/1A8hen2hLFY5FLkC5gd3JP2Z-IpHfnAX-CpYLK3aOdwA/edit#
+- Check `Running and Debugging` at https://docs.google.com/document/d/1A8hen2hLFY5FLkC5gd3JP2Z-IpHfnAX-CpYLK3aOdwA/edit#
 
 ## Dependencies
 Unity version: 2019.3.1f1
